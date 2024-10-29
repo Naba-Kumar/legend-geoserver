@@ -1,0 +1,44 @@
+@import "node_modules/ol/ol.css";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#legend-container {
+
+  position: absolute;
+  top: 500px;
+  left: 100px;
+
+}
+
+
+#legend-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+#legend-container p {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#legend-container p img {
+  width: 20px;
+  /* Adjust width */
+  height: 20px;
+  /* Adjust height */
+  margin-right: 10px;
+  /* Add some space between the image and the text */
+}
